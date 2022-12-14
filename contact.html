@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="utf-8"> 
+    	<title>Contact</title>
+       <link rel="stylesheet" href="present.css">
+    	</head>
+
+    <body>
+      <header>
+            <div id="banniere"></div>
+            </header>
+
+      <nav>
+        <div id="menu">
+          <ul>
+            <li><a href="Accueil.html">{Accueil}</a></li>
+            <li><a href="CvetPresentation.html">{Presentation}</a></li>
+            <li><a href="contact.html">{Contact}</a></li>
+          </ul>          
+        </div>                 
+ 
+
+      </nav>
+         
+          <h1>Contact: </h1>
+          <h3>Formulaire de contact</h3>
+          <form>
+             <p><i>Complétez le formulaire Les champs marqué par </i><em>*</em> sont <em>obligatoires</em></p>
+             <fieldset>
+               <legend>Contact</legend>
+              <div>
+                <label for ="madame"><input class="Civ " type="radio" name="Civ" value="">Madame</label>
+                    
+              <label for="monsieur"><input class="Civ" type="radio" name="Civ" value="">Monsieur</label>   
+              </div>
+                   <br>
+                   <label for="nom">Nom<em>*</em></label>
+                   <!--placeholder: indication grisée
+                   //required: il faut renseigner le champs sinon la validation est bloquée
+                   //autofocus: le curseur est positionée dans cette case au chargement de la page
+                   L'attribut autofocus n'est pas pris en charge par IE-->   
+                   <input id="nom" placeholder="Nom" type="text" autofocus="autofocus" required="Ce champ est obligatoire"><br>
+                   <label for="prenom">Prénom <em>*</em></label>
+                   <input id="prenom" placeholder="Prenom" type="text" autofocus="autofocus" required="Ce champ est obliqatoire"><br>
+                   <label for="telephone">Portable</label>
+                   <!--// type="tel": bascule le clavier sur un smartphone
+                   //pattern expression régulière à vérifier pour pour pouvoir valider -->
+                   <input id="telephone"  type="tel"placeholder="0xxxxxxxxx" autofocus="autofocus" pattern="[0-9]{10}"><br> 
+                   <label for="email">Email <em>*</em></label>
+                   <input id="email"  type="email"  placeholder="prenom.nom@polytechnique.edu" autofocus="autofocus" required="Ce champ est obliqatoire"><br> 
+                 </fieldset>
+                 <fieldset>
+                   <legend>Information personelles</legend>
+                    <label for="age">Age<em>*</em></label>
+                    <input id="age" placeholder="age" type="text" autofocus="autofocus" required="Ce champ est obligatoire"><br>
+                    <label for="sexe">Sexe<em>*</em></label>
+                    <select id="sexe">
+                    <option value="" name="choix">Sélectionner votre choix</option>
+                    <option value="F" name="sexe">Femme</option>
+                    <option value="H" name="sexe">Homme</option>
+                  </select><br>
+                  <label for="comments" >Pourquoi voulez-vous nous rejoindre ?</label>
+                  <textarea id="comments" type="text" placeholder="Ecrivez votre texte en 50 caractères max" maxlength="50"></textarea>
+                  <!--<input type="text" name="montext"value="écrivez votre texte en 100 caractères"maxlength="100">-->
+				 </fieldset>
+				 <div>
+				 <input type="submit" class="submit" name="valider" value="Envoyer le formulaire" />
+				 </div>
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </form>
+         
+         
+
+
+    	

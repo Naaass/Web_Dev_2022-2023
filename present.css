@@ -1,0 +1,188 @@
+
+header{
+        width:  70%auto;
+        vertical-align: center;
+        border: 10px solid #F5E09A;
+        border-radius: 10px;
+        margin: auto;
+}
+
+#banniere{
+        background-image: url("banniere.jpg") ;
+        height: 15vw;
+        width: 98vw;
+        margin: auto;
+
+
+}
+
+
+
+
+
+
+
+h1{
+     	color: #A7A1EE;/*couleur du titre*/
+     	
+
+ }
+
+ h2{
+        color: #F5E09A ;
+        
+ }
+ h3{
+
+ 	color: #A7A1EE ;
+         }
+ p{
+        color: #A7A1EE;
+ }        
+
+body{
+
+
+	background-color: #FFFBE0;/*couleur fond de page*/
+}         
+
+nav{
+        padding:  0; margin: 0;/* espace entre la marge du haut et le menu*/
+        text-align:  center ; /*centre le texte */
+ }
+
+nav li{
+        display: inline;
+}
+nav a {
+        display: inline-block;
+        margin:  0 40 3 40px;
+        background:#FBF0D0; /*couleur de fond*/
+        width: 30vw ; 
+        text-decoration: none; /*pas d'héritage avec effet souligné*/
+        color:#B5BADA ;
+        height: 4vw; /*hauteur du texte*/
+        line-height: 3 50 3 50px;
+        padding: 1 40vw;
+        font-size: 3vw;
+
+}
+nav a:hover:first-child{
+        background:#A7A1EE;
+}
+
+th{
+        background-color: white ;
+        color: black;
+        border: ridge 1px black;
+}
+
+#interv{
+        background-color: #A7A1EE  ;
+        color: white;
+}
+
+#tel{
+        background-color: #A7A1EE  ;
+        color: white;
+}
+
+tr{
+        /*border: 2px solid red*/
+        border: 2px red;
+
+        
+}
+
+
+td{
+
+        border: ridge 1px black;
+        background-color:white ;
+        color: #black;
+        font-size: 15px;
+        vertical-align: middle;
+        text-align: center;
+        
+}
+
+caption{
+        font-size: 20px;
+        color: red ;
+        text-decoration: underline;
+        padding-bottom: 5px;
+}
+table{
+       
+       text-align: middle; 
+       border-color: black;
+       border: 3px;
+       border-collapse: collapse;
+       
+       
+}
+#colspan{
+        background-color: yellow;
+}
+em{
+    font-weight: bold;
+    font-style: normal;
+    color #f00;
+}
+
+fieldset{
+    color: #A7A1EE;
+    margin-bottom: 20px;
+    border-color:#A7A1EE; 
+    padding: 15px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFBE0;
+}
+input{
+    background-color:#FFFBE0 ;
+    border: solid 1px;
+    border-color:  #A7A1EE;
+}
+}
+textarea{ background-color: #FFFBE0;
+}
+
+}
+legend{
+    padding: 0px 3px;
+    font-weight:bold;
+    font-variant: small-caps;
+
+}
+
+legend {
+	padding: 0px 3px;
+	font-weight:bold;
+	font-variant: small-caps;*/
+}	
+label {
+	width: 110px;
+	display: inline-block;
+	vertical-align: top;
+	margin:6px;
+}
+
+em {
+	font-weight: bold;
+	font-style: normal;
+	color: #f00;
+}
+
+	form div{
+		text-align: center;
+	    
+	}
+     
+	.submit{
+		display: block;
+		display: inline-block;
+		margin: 4px auto 0;
+	   
+	}
